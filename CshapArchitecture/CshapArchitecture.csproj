@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6751B272-876A-41C1-A7AB-A4306C5251B4}</ProjectGuid>
+    <ProjectGuid>{4E4A4B88-5537-4117-AF14-FFB6FFD2F9A6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FirstPart</RootNamespace>
-    <AssemblyName>FirstPart</AssemblyName>
+    <RootNamespace>CshapArchitecture</RootNamespace>
+    <AssemblyName>CshapArchitecture</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account.cs" />
+    <Compile Include="BO\Animal.cs" />
+    <Compile Include="BO\Bird.cs" />
+    <Compile Include="BO\Boat.cs" />
+    <Compile Include="BO\Cat.cs" />
+    <Compile Include="Interface\IAlive.cs" />
+    <Compile Include="Interface\IFlyable.cs" />
+    <Compile Include="Interface\IRollable.cs" />
+    <Compile Include="Interface\ISwimmable.cs" />
+    <Compile Include="Interface\IWalkable.cs" />
+    <Compile Include="BO\MineralVegetal.cs" />
+    <Compile Include="BO\Newspaper.cs" />
+    <Compile Include="BO\Plane.cs" />
+    <Compile Include="BO\Shark.cs" />
+    <Compile Include="BO\Stone.cs" />
+    <Compile Include="BO\Superman.cs" />
+    <Compile Include="BO\Tree.cs" />
+    <Compile Include="BO\Vehicle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

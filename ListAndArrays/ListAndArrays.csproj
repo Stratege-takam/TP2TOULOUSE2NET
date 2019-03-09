@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6751B272-876A-41C1-A7AB-A4306C5251B4}</ProjectGuid>
+    <ProjectGuid>{B2AF78C0-A570-4D3D-99F8-5355F720E150}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FirstPart</RootNamespace>
-    <AssemblyName>FirstPart</AssemblyName>
+    <RootNamespace>ListAndArrays</RootNamespace>
+    <AssemblyName>ListAndArrays</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
